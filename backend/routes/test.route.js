@@ -1,6 +1,6 @@
 
 import express from "express";
-import { shouldBeAdmin, shouldBeLoggedIn } from "../controllers/test.controllers.js";
+import { shouldBeLoggedIn } from "../controllers/test.controllers.js";
 import { verifyToken } from "../middleware/verifyToken.js";
 
 const router=express.Router()
